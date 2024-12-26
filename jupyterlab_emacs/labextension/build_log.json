@@ -1,6 +1,6 @@
 [
   {
-    "bail": true,
+    "bail": false,
     "module": {
       "rules": [
         {
@@ -102,7 +102,7 @@
     "output": {
       "hashFunction": "sha256",
       "filename": "[name].[contenthash].js",
-      "path": "/Users/louisclark/src/jupyterlab-emacs/jupyterlab_vim/labextension/static",
+      "path": "/Users/louisclark/src/jupyterlab-emacs/jupyterlab_emacs/labextension/static",
       "publicPath": "auto"
     },
     "plugins": [
@@ -113,12 +113,12 @@
       },
       {
         "_options": {
-          "name": "@axlair/jupyterlab_vim",
+          "name": "@zigeuner/jupyterlab_emacs",
           "library": {
             "type": "var",
             "name": [
               "_JUPYTERLAB",
-              "@axlair/jupyterlab_vim"
+              "@zigeuner/jupyterlab_emacs"
             ]
           },
           "filename": "remoteEntry.[contenthash].js",
@@ -700,7 +700,7 @@
               "singleton": true
             },
             "@replit/codemirror-vim": {},
-            "@axlair/jupyterlab_vim": {
+            "@zigeuner/jupyterlab_emacs": {
               "version": "4.1.4",
               "singleton": true,
               "import": "/Users/louisclark/src/jupyterlab-emacs/lib/index.js"

@@ -1,5 +1,5 @@
 "use strict";
-(self["webpackChunk_axlair_jupyterlab_vim"] = self["webpackChunk_axlair_jupyterlab_vim"] || []).push([["style_index_js"],{
+(self["webpackChunk_zigeuner_jupyterlab_emacs"] = self["webpackChunk_zigeuner_jupyterlab_emacs"] || []).push([["style_index_js"],{
 
 /***/ "./node_modules/css-loader/dist/runtime/api.js":
 /*!*****************************************************!*\
@@ -503,4 +503,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /***/ })
 
 }]);
-//# sourceMappingURL=style_index_js.e0a640f9601d6ba87ed5.js.map
+//# sourceMappingURL=style_index_js.d5858af15c841d1b25be.js.map

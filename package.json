@@ -1,9 +1,9 @@
 {
-    "name": "@axlair/jupyterlab_emacs",
+    "name": "@zigeuner/jupyterlab_emacs",
     "version": "4.1.4",
     "description": "Code cell emacs bindings",
     "author": {
-        "name": "Axel Fahy"
+        "name": "Ziggy Eunicien"
     },
     "license": "MIT",
     "main": "lib/index.js",

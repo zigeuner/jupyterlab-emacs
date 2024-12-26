@@ -3,7 +3,7 @@ var _JUPYTERLAB;
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "webpack/container/entry/@axlair/jupyterlab_vim":
+/***/ "webpack/container/entry/@zigeuner/jupyterlab_emacs":
 /*!***********************!*\
   !*** container entry ***!
   \***********************/
@@ -124,7 +124,7 @@ __webpack_require__.d(exports, {
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "" + chunkId + "." + {"webpack_sharing_consume_default_codemirror_state-webpack_sharing_consume_default_codemirror_view":"5b8aa293af69d61ce557","lib_index_js":"7c28a4b2c69352ba0df5","style_index_js":"e0a640f9601d6ba87ed5","vendors-node_modules_replit_codemirror-vim_dist_index_js":"303fa34f6f66be01835f","webpack_sharing_consume_default_codemirror_language-webpack_sharing_consume_default_lezer_common":"e50d81451bca0f5ef1ef"}[chunkId] + ".js";
+/******/ 			return "" + chunkId + "." + {"webpack_sharing_consume_default_codemirror_state-webpack_sharing_consume_default_codemirror_view":"30ae8c805aa907bd9185","lib_index_js":"7c88208c1d6bb2cf511b","style_index_js":"d5858af15c841d1b25be","vendors-node_modules_replit_codemirror-vim_dist_index_js":"186c1736149b60eadc04","webpack_sharing_consume_default_codemirror_language-webpack_sharing_consume_default_lezer_common":"8ac4d9c13967c2fb60d9"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -148,7 +148,7 @@ __webpack_require__.d(exports, {
 /******/ 	/* webpack/runtime/load script */
 /******/ 	(() => {
 /******/ 		var inProgress = {};
-/******/ 		var dataWebpackPrefix = "@axlair/jupyterlab_vim:";
+/******/ 		var dataWebpackPrefix = "@zigeuner/jupyterlab_emacs:";
 /******/ 		// loadScript function to load a script via script tag
 /******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
 /******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
@@ -223,7 +223,7 @@ __webpack_require__.d(exports, {
 /******/ 			var warn = (msg) => {
 /******/ 				if (typeof console !== "undefined" && console.warn) console.warn(msg);
 /******/ 			};
-/******/ 			var uniqueName = "@axlair/jupyterlab_vim";
+/******/ 			var uniqueName = "@zigeuner/jupyterlab_emacs";
 /******/ 			var register = (name, version, factory, eager) => {
 /******/ 				var versions = scope[name] = scope[name] || {};
 /******/ 				var activeVersion = versions[version];
@@ -243,8 +243,8 @@ __webpack_require__.d(exports, {
 /******/ 			var promises = [];
 /******/ 			switch(name) {
 /******/ 				case "default": {
-/******/ 					register("@axlair/jupyterlab_vim", "4.1.4", () => (Promise.all([__webpack_require__.e("webpack_sharing_consume_default_codemirror_state-webpack_sharing_consume_default_codemirror_view"), __webpack_require__.e("lib_index_js")]).then(() => (() => (__webpack_require__(/*! ./lib/index.js */ "./lib/index.js"))))));
 /******/ 					register("@replit/codemirror-vim", "6.2.1", () => (Promise.all([__webpack_require__.e("vendors-node_modules_replit_codemirror-vim_dist_index_js"), __webpack_require__.e("webpack_sharing_consume_default_codemirror_state-webpack_sharing_consume_default_codemirror_view"), __webpack_require__.e("webpack_sharing_consume_default_codemirror_language-webpack_sharing_consume_default_lezer_common")]).then(() => (() => (__webpack_require__(/*! ./node_modules/@replit/codemirror-vim/dist/index.js */ "./node_modules/@replit/codemirror-vim/dist/index.js"))))));
+/******/ 					register("@zigeuner/jupyterlab_emacs", "4.1.4", () => (Promise.all([__webpack_require__.e("webpack_sharing_consume_default_codemirror_state-webpack_sharing_consume_default_codemirror_view"), __webpack_require__.e("lib_index_js")]).then(() => (() => (__webpack_require__(/*! ./lib/index.js */ "./lib/index.js"))))));
 /******/ 				}
 /******/ 				break;
 /******/ 			}
@@ -470,7 +470,7 @@ __webpack_require__.d(exports, {
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"@axlair/jupyterlab_vim": 0
+/******/ 			"@zigeuner/jupyterlab_emacs": 0
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.j = (chunkId, promises) => {
@@ -482,7 +482,7 @@ __webpack_require__.d(exports, {
 /******/ 					if(installedChunkData) {
 /******/ 						promises.push(installedChunkData[2]);
 /******/ 					} else {
-/******/ 						if(/^((lib|style|vendors\-node_modules_replit_codemirror\-vim_dist)_index_js|@axlair\/jupyterlab_vim)$/.test(chunkId)) {
+/******/ 						if(/^((lib|style|vendors\-node_modules_replit_codemirror\-vim_dist)_index_j|@zigeuner\/jupyterlab_emac)s$/.test(chunkId)) {
 /******/ 							// setup Promise in chunk cache
 /******/ 							var promise = new Promise((resolve, reject) => (installedChunkData = installedChunks[chunkId] = [resolve, reject]));
 /******/ 							promises.push(installedChunkData[2] = promise);
@@ -547,7 +547,7 @@ __webpack_require__.d(exports, {
 /******/ 		
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunk_axlair_jupyterlab_vim"] = self["webpackChunk_axlair_jupyterlab_vim"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunk_zigeuner_jupyterlab_emacs"] = self["webpackChunk_zigeuner_jupyterlab_emacs"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
@@ -562,9 +562,9 @@ __webpack_require__.d(exports, {
 /******/ 	// module cache are used so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	var __webpack_exports__ = __webpack_require__("webpack/container/entry/@axlair/jupyterlab_vim");
-/******/ 	(_JUPYTERLAB = typeof _JUPYTERLAB === "undefined" ? {} : _JUPYTERLAB)["@axlair/jupyterlab_vim"] = __webpack_exports__;
+/******/ 	var __webpack_exports__ = __webpack_require__("webpack/container/entry/@zigeuner/jupyterlab_emacs");
+/******/ 	(_JUPYTERLAB = typeof _JUPYTERLAB === "undefined" ? {} : _JUPYTERLAB)["@zigeuner/jupyterlab_emacs"] = __webpack_exports__;
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=remoteEntry.e3f6ff5ebad61a51538e.js.map
+//# sourceMappingURL=remoteEntry.1d38ec6405b13b1d9826.js.map

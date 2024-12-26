@@ -37,8 +37,8 @@ artifacts = ["jupyterlab_emacs/labextension"]
 exclude = [".github", "binder"]
 
 [tool.hatch.build.targets.wheel.shared-data]
-"jupyterlab_emacs/labextension" = "share/jupyter/labextensions/@axlair/jupyterlab_emacs"
-"install.json" = "share/jupyter/labextensions/@axlair/jupyterlab_emacs/install.json"
+"jupyterlab_emacs/labextension" = "share/jupyter/labextensions/@zigeuner/jupyterlab_emacs"
+"install.json" = "share/jupyter/labextensions/@zigeuner/jupyterlab_emacs/install.json"
 
 [tool.hatch.build.hooks.version]
 path = "jupyterlab_emacs/_version.py"

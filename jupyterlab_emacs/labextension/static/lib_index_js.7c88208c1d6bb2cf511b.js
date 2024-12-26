@@ -1,5 +1,5 @@
 "use strict";
-(self["webpackChunk_axlair_jupyterlab_vim"] = self["webpackChunk_axlair_jupyterlab_vim"] || []).push([["lib_index_js"],{
+(self["webpackChunk_zigeuner_jupyterlab_emacs"] = self["webpackChunk_zigeuner_jupyterlab_emacs"] || []).push([["lib_index_js"],{
 
 /***/ "./lib/codemirrorCommands.js":
 /*!***********************************!*\
@@ -778,4 +778,4 @@ function addNotebookCommands(app, tracker) {
 /***/ })
 
 }]);
-//# sourceMappingURL=lib_index_js.7c28a4b2c69352ba0df5.js.map
+//# sourceMappingURL=lib_index_js.7c88208c1d6bb2cf511b.js.map
