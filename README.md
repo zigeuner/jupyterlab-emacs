@@ -5,10 +5,10 @@
 ![Extension status](https://img.shields.io/badge/status-ready-success 'ready to be used')
 [![Github Actions Status](https://github.com/jupyterlab-contrib/jupyterlab-vim/workflows/Build/badge.svg)](https://github.com/jupyterlab-contrib/jupyterlab-vim/actions?query=workflow%3ABuild)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jupyterlab-contrib/jupyterlab-vim/main?urlpath=lab)
-[![npm version](https://img.shields.io/npm/v/@axlair/jupyterlab_vim)](https://www.npmjs.com/package/@axlair/jupyterlab_vim)
-[![npm downloads](https://img.shields.io/npm/dw/@axlair/jupyterlab_vim.svg)](https://www.npmjs.com/package/@axlair/jupyterlab_vim)
+[![npm version](https://img.shields.io/npm/v/@axlair/jupyterlab_emacs)](https://www.npmjs.com/package/@axlair/jupyterlab_emacs)
+[![npm downloads](https://img.shields.io/npm/dw/@axlair/jupyterlab_emacs.svg)](https://www.npmjs.com/package/@axlair/jupyterlab_emacs)
 [![PyPI](https://img.shields.io/pypi/v/jupyterlab-vim)](https://pypi.org/project/jupyterlab-vim)
-[![Conda Version](https://img.shields.io/conda/vn/conda-forge/jupyterlab_vim.svg)](https://anaconda.org/conda-forge/jupyterlab_vim)
+[![Conda Version](https://img.shields.io/conda/vn/conda-forge/jupyterlab_emacs.svg)](https://anaconda.org/conda-forge/jupyterlab_emacs)
 
 Notebook cell vim bindings
 
@@ -37,7 +37,7 @@ pip install jupyterlab-vim
 or with conda/mamba:
 
 ```bash
-mamba install -c conda-forge jupyterlab_vim
+mamba install -c conda-forge jupyterlab_emacs
 ```
 
 ## Key Bindings
@@ -147,7 +147,7 @@ The `jlpm` command is JupyterLab's pinned version of
 
 ```bash
 # Clone the repo to your local environment
-# Change directory to the jupyterlab_vim directory
+# Change directory to the jupyterlab_emacs directory
 # Install package in development mode
 pip install -e .
 # Link your development version of the extension with JupyterLab
@@ -176,5 +176,5 @@ jupyter lab build --minimize=False
 ### Uninstall
 
 ```bash
-pip uninstall jupyterlab_vim
+pip uninstall jupyterlab_emacs
 ```

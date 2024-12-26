@@ -1,7 +1,7 @@
 {
-    "name": "@axlair/jupyterlab_emacs",
+    "name": "@axlair/jupyterlab_vim",
     "version": "4.1.4",
-    "description": "Code cell emacs bindings",
+    "description": "Code cell vim bindings",
     "author": {
         "name": "Axel Fahy"
     },
@@ -9,13 +9,13 @@
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "style": "style/index.css",
-    "homepage": "https://github.com/jupyterlab-contrib/jupyterlab-emacs",
+    "homepage": "https://github.com/jupyterlab-contrib/jupyterlab-vim",
     "bugs": {
-        "url": "https://github.com/jupyterlab-contrib/jupyterlab-emacs/issues"
+        "url": "https://github.com/jupyterlab-contrib/jupyterlab-vim/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/jupyterlab-contrib/jupyterlab-emacs.git"
+        "url": "https://github.com/jupyterlab-contrib/jupyterlab-vim.git"
     },
     "keywords": [
         "extension",
@@ -32,7 +32,7 @@
         "build:prod": "jlpm clean && jlpm build:lib:prod && jlpm build:labextension",
         "clean": "jlpm clean:lib",
         "clean:all": "jlpm clean:lib && jlpm clean:labextension && jlpm clean:lintcache",
-        "clean:labextension": "rimraf jupyterlab_emacs/labextension jupyterlab_emacs/_version.py",
+        "clean:labextension": "rimraf jupyterlab_vim/labextension jupyterlab_vim/_version.py",
         "clean:lib": "rimraf lib tsconfig.tsbuildinfo",
         "clean:lintcache": "rimraf .eslintcache .stylelintcache",
         "eslint": "jlpm eslint:check --fix",
@@ -106,7 +106,7 @@
     },
     "jupyterlab": {
         "extension": true,
-        "outputDir": "jupyterlab_emacs/labextension",
+        "outputDir": "jupyterlab_vim/labextension",
         "schemaDir": "schema"
     },
     "eslintIgnore": [

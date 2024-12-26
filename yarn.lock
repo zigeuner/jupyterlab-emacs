@@ -5,9 +5,9 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@axlair/jupyterlab_vim@workspace:.":
+"@axlair/jupyterlab_emacs@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@axlair/jupyterlab_vim@workspace:."
+  resolution: "@axlair/jupyterlab_emacs@workspace:."
   dependencies:
     "@codemirror/language": ^6.10.1
     "@codemirror/search": ^6.5.6
